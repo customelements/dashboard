@@ -10,7 +10,7 @@ module.exports = function (req, res) {
   unirest
     .get('http://customelements-fetch.herokuapp.com/repos')
     .end(function (response) {
-      var eleven = 0, twelve = 0, thirteen = 0, fourteen = 0, fifteen = 0, total = 0;
+      var eleven = 0, twelve = 0, thirteen = 0, fourteen = 0, fifteen = 0;
 
       console.log('Total:', Object.keys(response.body).length);
 
