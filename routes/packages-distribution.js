@@ -22,17 +22,20 @@ module.exports = function (req, res) {
 
       template.item.push({
         'label': 'bower',
-        'value': bower
+        'value': bower,
+        'color': 'FFCC2F'
       });
 
       template.item.push({
         'label': 'npm',
-        'value': npm
+        'value': npm,
+        'color': 'cb3837'
       });
 
       template.item.push({
         'label': 'bower & npm',
-        'value': bower_npm
+        'value': bower_npm,
+        'color': '00ACEE'
       });
 
       res.send(template);
