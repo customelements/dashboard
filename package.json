@@ -1,6 +1,9 @@
 {
   "private": true,
+  "name": "dashboard",
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "moment": "^2.10.2",
+    "unirest": "^0.4.0"
   }
 }
